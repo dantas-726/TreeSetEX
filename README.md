@@ -19,8 +19,8 @@ public class TreeSetDEC {
 	    	  
 	      }
 	      System.out.println("Numero Crescente\n" + treeSet);
-	      TreeSet<Object> res = (TreeSet<Object>)treeSet.descendingSet();
-	      System.out.println("Numero Decrescente\n" + res);
+	      TreeSet<Object> dec = (TreeSet<Object>)treeSet.descendingSet();
+	      System.out.println("Numero Decrescente\n" + dec);
 	   }
 	}
 
