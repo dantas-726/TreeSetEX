@@ -24,12 +24,31 @@ public class TreeSetDEC {
 	   }
 	}
 
-//
-//for (int i=1; i<1001; i++){
-//	
-//
-//    boolean add = set.add(new Integer(i));
-//  }
-//  
-//    for (Iterator iter = set.iterator();
-//    		iter.hasNext();) {
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+package TreeSet2;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.TreeSet;
+public class TreeSetDEC {
+	 
+	   public static void main(String[] args) {
+		   
+	      Collection<Integer> ArrayList = new ArrayList<>();
+	      for (int i=1;i<1001;i++){
+		       ArrayList.add(i); 
+		      
+	    	  
+		 
+	    	  
+	      }
+	      
+	      System.out.println("Numero Crescente\n" + ArrayList);
+	}
+	   
+}
+
+
